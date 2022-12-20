@@ -1,0 +1,26 @@
+var sscMarks = 39;
+var result = sscMarks >= 35 ? "Eligible" : "Not eligible";
+console.log(`result is ${result} `);
+
+
+var gradResult = function (gradMarks) {
+    var result = gradMarks >=70 && gradMarks < 100 ? "Eligible" : "Not eligible";
+    return result;
+  };
+  var result = gradResult(70);
+
+  var hscResult = function (hscMarks) {
+    var result = hscMarks >= 80 && hscMarks < 100 ? "Eligible" : "Not eligible";
+    return result;
+  };
+  var result = hscResult(90);
+
+
+var sscResult = function (sscMarks) {
+  var result = sscMarks >= 90 && sscMarks < 100 ? "Eligible" : "Not eligible";
+  return result;
+};
+var result = sscResult(90);
+console.log(`result is 53 ${gradResult(80)},${hscResult(86)},${sscResult(90)}`);
+console.log(`result is 83 ${sscResult(55)}`);
+console.log(`result of 1000 ${sscResult(88)}`);
