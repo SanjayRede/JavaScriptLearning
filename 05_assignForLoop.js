@@ -8,11 +8,17 @@ for (let index =50; index >=40; index=index-1) {
     console.log(index);
     
 }
-console.log("-------------15 odd numbers-------------");
-for (let index=15 ; index >=40; index=index+2) {
+console.log("-------------15 Even numbers-------------");
+for (let index=0 ; index <=15; index=index+2) {
     console.log(index);
-    
+    if (index% 2 == 0) {}
 }
+console.log("-------------15 Odd numbers-------------");
+for (let index=1 ; index <=15; index=index+2) {
+    console.log(index);
+    if (index% 2 != 0) {}
+}
+
 console.log("-------------table 5-------------");
 for (let index=5 ; index <=50; index=index+5) {
     console.log(index);
