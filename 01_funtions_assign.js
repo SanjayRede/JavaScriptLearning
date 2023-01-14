@@ -38,3 +38,27 @@ function addThreeValues(value1,value2,value3) {
  }
  addThreeValues(10.23,600,40)
  addThreeValues("Hello", "good", "morning")
+
+
+
+function values(num1,num2) {
+  // console.log(num1+num2);
+  var sum= num1+num2;
+  console.log(sum);
+}
+values(10,12);
+values(10,32);
+
+function values(num1,num2) {
+  var sum= num1+num2;
+  return sum;
+};
+var myValue=values(10,12);
+console.log(myValue);
+// values(10,32);
+function name(params) {
+}
+
+
+
+
