@@ -52,7 +52,7 @@ console.log("slice with negative start and end index: ", greet.slice(-7, -2));
 
 var studList = "Dips|Jenny|Ganni|Manni|Shani";
 var studListSplit = studList.split("|");
-console.log(" Student list after split by char ,", studListSplit);
+console.log(" Student list after split by char", studListSplit);
 console.log("Total number students: ", studListSplit.length);
 
 var studList = "Dips|Jenny|Ganni|Manni|Shani";

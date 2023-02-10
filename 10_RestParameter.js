@@ -3,7 +3,7 @@
 function show(name, age, ...details){
     console.log(name,age, details);
 }
-show("Sachin", 45, "Mumbai", 101);
+show("Sachin", 45, "Mumbai", 101,"pune");
 
 
 // Function with default argument value

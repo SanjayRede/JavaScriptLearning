@@ -2,18 +2,22 @@ var squre= function(num) {
     console.log("squre of 5 is=", num*num);
 }
 squre(5);
+
 var squre= function(num) {
     console.log("squre of 6 is=", num*num);
 }
 squre(6);
+
 var squre= function(num) {
     console.log("squre of 25 is=", num*num);
 }
 squre(25);
+
 var squre= function(num) {
     console.log("squre of 100 is=", num*num);
 }
 squre(100);
+
 console.log(typeof squre);
 
 console.log("----------------------------------------------------" );

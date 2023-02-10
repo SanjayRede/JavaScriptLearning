@@ -30,6 +30,9 @@ function multiply(num1,num2) {
  console.log(finalresult);
 
 
-
-
+console.log(`----------------------------`);
+function add(num1,num2) {
+    console.log(num1+num2);
+}
+add(12,12);
 

@@ -4,7 +4,7 @@
 // 3 - Wednesday
 // 7 - Sunday
 
-var dayNumber = 4;
+var dayNumber = 5;
 switch (dayNumber) {
   case 1:
     console.log(`Today is Monday`);
@@ -45,7 +45,7 @@ console.log(`After switch case statement`);
 // 3 - Wednesday
 // 7 - Sunday
 
-var dayNumber = 9;
+var dayNumber = 4;
 switch (dayNumber) {
   case 1:
     console.log(`Today is Monday`);

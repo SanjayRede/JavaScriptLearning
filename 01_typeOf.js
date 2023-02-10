@@ -25,7 +25,9 @@ console.log(isworking);
 console.log(typeof isworking);
 
 var totalcount=("hundred and seven")
-console.log(totalcount);console.log(typeof totalcount);
+console.log(totalcount);
+console.log(typeof totalcount);
 
 var totalcount=107;
-console.log(totalcount);console.log(typeof totalcount);
+console.log(totalcount);
+console.log(typeof totalcount);

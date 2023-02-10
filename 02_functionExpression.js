@@ -6,6 +6,7 @@ var showresult = function show() {
     console.log("show function");
 }
 showresult();
+
 var subtraction=function(num1,num2) {
     var result= num1-num2;
     console.log("subtraction", result);

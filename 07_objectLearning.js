@@ -3,6 +3,7 @@ const datta = {
     "weight": 70,
     "age": 23
   }
+  console.log(datta);
   
   const myLaptop ={
       OS: "Bug sur",
@@ -21,8 +22,6 @@ const datta = {
     speak: function(){
         console.log("hey i can speak hindi and english");
     }
-
-
   }
   console.log(typeof person);
   console.log(person);
